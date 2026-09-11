@@ -1,6 +1,6 @@
-# TESTTOKEN Ecosystem
+# VECTRON Ecosystem
 
-Welcome to the public hub for TESTTOKEN. 
+Welcome to the public hub for VECTRON. 
 
 ## 🗺️ Project Documentation
 Explore the architecture and blueprints of our ecosystem:
