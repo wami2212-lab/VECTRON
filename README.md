@@ -11,4 +11,4 @@ Explore the architecture and blueprints of our ecosystem:
 Check the code in action and view live on-chain video demonstrations on my **[X Account](https://x.com/CRYPTOWAMI22)**.
 
 ### 🔒 Repository Note
-To protect project intellectual property and ensure security prior to mainnet launch, our core smart contract implementations are maintained in a private repository. The public files provided here, combined with our live on-chain demonstrations, provide full transparency into our technical interfaces and ecosystem mechanics.
+The VECTRON smart contract implementation is publicly available in this repository following the mainnet deployment. This repository provides transparent access to the contract code, technical interfaces, ecosystem mechanics, and project documentation.
