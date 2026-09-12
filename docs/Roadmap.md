@@ -6,30 +6,33 @@
 
 ## 🏗️ Current Architecture
 
-* **Front-End:** React-based dashboard with real-time Web3 provider hooks.
-* **Contracts:** Modular staking logic (Remix tested / Mainnet ready).
-* **Network:** Multi-chain enabled with L2 Integration for high-speed, low-cost transactions.
-* **Security:** Logic-gated treasury and unified liquidity management system.
+* **Front-End:** React-based investor dashboard with real-time Web3 provider hooks (wallet connect + WalletConnect mobile support).
+* **Contracts:** Tiered staking engine (15/45/90-day locks), linear vesting, TWAP-protected auto-liquidity — live on BSC Mainnet.
+* **Network:** BNB Smart Chain (BSC), via PancakeSwap.
+* **Security:** Two-step ownership transfer, 48-hour timelocked rescue, 150-day LP lock, TWAP divergence guard on auto-liquidity swaps.
 
 ---
 
 ## 📅 Development Phases
 
 ### 🏛️ Phase 1: Foundation (Completed)
-- [x] **Smart Contract Development:** Core logic for SMAC staking and rewards.
-- [x] **Stress Testing:** Extensive multi-scenario testing via Remix IDE.
-- [x] **UI/UX Design:** Finalized the Investor Dashboard interface.
-- [x] **Protocol Validation:** Successful initial staking test of 1,500 SMAC tokens with a 45-day lock period.
+- [x] **Smart Contract Development:** Core tiered-staking, vesting, and auto-liquidity logic.
+- [x] **Stress Testing:** Multi-scenario testing on Sepolia and BSC Testnet, including full investor journeys (claim, stake, emergency exit, reward harvest).
+- [x] **UI/UX Design:** Investor dashboard built and verified on desktop and mobile.
+- [x] **Security Review:** Clean results across Slither, Solhint, SolidityScan, and Mythril.
 
-### 🚀 Phase 2: Liquidity & Deployment (In Progress)
-- [x] **Infrastructure:** Multi-chain and L2 integration fully deployed.
-- [ ] **Mobile Optimization:** Real-life mobile wallet testing for seamless investor UX.
-- [ ] **Liquidity Launch:** Initialization of the Primary Liquidity Pool.
-- [ ] **Public Beta:** Deployment of the v1 Dashboard for community stress-testing.
-- [ ] **Verification:** Finalizing on-chain verification protocols for core ecosystem access.
+### 🚀 Phase 2: Mainnet Launch (Completed)
+- [x] **Mainnet Deployment:** VECTRON deployed and Sourcify-verified on BSC Mainnet.
+- [x] **Dashboard Live:** Investor dashboard verified end-to-end over mobile wallet connections.
+- [x] **Investor Intake:** Payment confirmation + on-chain verification pipeline built and tested.
 
-### 📈 Phase 3: Transparency & Governance (Planned)
-- [ ] **Transparency Suite:** Publicly trackable dashboard for Treasury and Liquidity flow.
-- [ ] **Governance 1.0:** Implementation of logic-gated community proposals.
-- [ ] **Regulatory Alignment:** Internal review to ensure long-term protocol stability and compliance.
-- [ ] **Ecosystem Expansion:** Strategic partnership onboarding and secondary pool deployments.
+### 📈 Phase 3: Liquidity & Trading (In Progress)
+- [ ] **Investor Rounds:** Run Seed / Private / Public rounds and finalize allocations.
+- [ ] **Liquidity Launch:** Seed the PancakeSwap pool and lock liquidity for 150 days.
+- [ ] **Trading Live:** Register the exchange pair to enable trading and tax collection.
+- [ ] **BscScan Verification:** Publish verified source alongside the existing Sourcify verification.
+
+### 🌐 Phase 4: Transparency & Growth (Planned)
+- [ ] **Transparency Suite:** Publicly trackable treasury and liquidity flow.
+- [ ] **Community Growth:** Expand investor and holder base post-launch.
+- [ ] **Ecosystem Expansion:** Evaluate future partnerships and integrations once trading is stable.
