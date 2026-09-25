@@ -9,20 +9,19 @@
 
 | Field | Value |
 |---|---|
-| Contract Address | `0x04F3e675068a93941d0b6cB13428c4a9C83dfd14` |
+| Contract Address | 0x60d78404f645d1e9140b605ba8c7641f67e841fc |
 | Token Name | VECTRON |
 | Token Symbol | VCT |
 | Decimals | 18 |
 | Max Supply | 1,000,000,000 VCT (1B, hard cap) |
-| Deploy Transaction Hash | `0x4157d63ded2dd825965be8d1812e710538a77a518563037a8c34607126539b53` |
-| Deploy Block | 121,274,952 |
+| Deploy Transaction Hash | 0x552d392dc8203c615f715ef584e79c32954be8747057f8051e6c513a5f0da400  |
+| Deploy Block | 123919204 |
 | Deployer / Owner Wallet | `0xbEc4B6356267fE4791b5C0b5b1325B5B07aE0ad9` (Trezor hardware wallet) |
 
 **BscScan (Mainnet):**
-`https://bscscan.com/address/0x04F3e675068a93941d0b6cB13428c4a9C83dfd14`
-
+]https://bscscan.com/address/0x60d78404f645d1e9140b605ba8c7641f67e841fc)
 **Write Contract directly from BscScan (no Remix dependency):**
-`https://bscscan.com/address/0x04F3e675068a93941d0b6cB13428c4a9C83dfd14#writeContract`
+https://bscscan.com/address/0x60d78404f645d1e9140b605ba8c7641f67e841fc#writeContract`
 
 ---
 
