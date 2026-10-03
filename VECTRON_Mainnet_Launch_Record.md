@@ -1,6 +1,6 @@
 # VECTRON (VCT) — Mainnet Launch Record
 
-**Launch Date:** September 11, 2026
+**Launch Date:** October 2, 2026
 **Network:** BNB Smart Chain (BSC) Mainnet — Chain ID 56
 
 ---
@@ -9,19 +9,28 @@
 
 | Field | Value |
 |---|---|
-| Contract Address | 0x60d78404f645d1e9140b605ba8c7641f67e841fc |
+| Contract Address | 0x21b2Fd27294912555b57028CC8cf69C60851D1e4 |
 | Token Name | VECTRON |
 | Token Symbol | VCT |
 | Decimals | 18 |
 | Max Supply | 1,000,000,000 VCT (1B, hard cap) |
-| Deploy Transaction Hash | 0x552d392dc8203c615f715ef584e79c32954be8747057f8051e6c513a5f0da400  |
-| Deploy Block | 123919204 |
+| Deploy Transaction Hash | 0x5a042e5827150393e1d09b21dcd59919df181272ac23b46f8deae4b0527972a4 |
+| Deploy Block | 125273255 |
 | Deployer / Owner Wallet | `0xbEc4B6356267fE4791b5C0b5b1325B5B07aE0ad9` (Trezor hardware wallet) |
 
 **BscScan (Mainnet):**
-]https://bscscan.com/address/0x60d78404f645d1e9140b605ba8c7641f67e841fc)
+https://bscscan.com/address/0x21b2Fd27294912555b57028CC8cf69C60851D1e4
 **Write Contract directly from BscScan (no Remix dependency):**
-https://bscscan.com/address/0x60d78404f645d1e9140b605ba8c7641f67e841fc#writeContract`
+https://bscscan.com/address/0x21b2Fd27294912555b57028CC8cf69C60851D1e4#writeContract
+
+## Superseded Deployments
+
+Two earlier deployments exist on BSC mainnet and are superseded. Both are inert: nothing was seeded, the system was never started, and neither will ever be started. The address above is the only official VECTRON contract.
+
+| Version | Address | Deployed |
+|---|---|---|
+| v1 | 0x04F3e675068a93941d0b6cB13428c4a9C83dfd14 | September 11, 2026 |
+| v2 | 0x60d78404f645d1e9140b605ba8c7641f67e841fc | September 25, 2026 |
 
 ---
 

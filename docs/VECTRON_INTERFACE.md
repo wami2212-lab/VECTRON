@@ -2,7 +2,7 @@
 
 This document outlines the core external functions, events, and state variables of the deployed VECTRON contract: a fixed-supply (1B VCT hard cap) token with tiered staking, linear vesting for investor/team allocations, and TWAP-protected auto-liquidity.
 
-Deployed contract: `0x04F3e675068a93941d0b6cB13428c4a9C83dfd14` (BSC Mainnet).
+Deployed contract: `0x21b2Fd27294912555b57028CC8cf69C60851D1e4` (BSC Mainnet).
 
 ## 1. Staking — Tiered Lock Periods
 
