@@ -22,6 +22,7 @@
 
 ### 🚀 Phase 2: Mainnet Launch (Completed)
 - [x] **Mainnet Deployment:** VECTRON deployed and Sourcify-verified on BSC Mainnet.
+- [x] **BscScan Verification:** Verified source published on BscScan (Exact Match) alongside Sourcify.
 - [x] **Dashboard Live:** Investor dashboard verified end-to-end over mobile wallet connections.
 - [x] **Investor Intake:** Payment confirmation + on-chain verification pipeline built and tested.
 
@@ -29,7 +30,6 @@
 - [ ] **Investor Rounds:** Run Seed / Private / Public rounds and finalize allocations.
 - [ ] **Liquidity Launch:** Seed the PancakeSwap pool and lock liquidity for 150 days.
 - [ ] **Trading Live:** Register the exchange pair to enable trading and tax collection.
-- [ ] **BscScan Verification:** Publish verified source alongside the existing Sourcify verification.
 
 ### 🌐 Phase 4: Transparency & Growth (Planned)
 - [ ] **Transparency Suite:** Publicly trackable treasury and liquidity flow.
