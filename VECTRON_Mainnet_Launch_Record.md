@@ -77,7 +77,7 @@ Owner wallet balance independently verified post-deploy via `balanceOf()` read c
 ## Verification Status
 
 - **Sourcify:** Verification submitted and successful at deploy time.
-- **BscScan verify + publish source:** Recommended next step — do this before opening investor rounds, so anyone can inspect the exact deployed code.
+- **BscScan:** Source code verified and published (Exact Match), matching the Sourcify verification.
 
 ---
 
@@ -85,9 +85,9 @@ Owner wallet balance independently verified post-deploy via `balanceOf()` read c
 
 | Fee | Default | Hard Cap |
 |---|---|---|
-| Treasury tax (transfer) | 0.5% | — |
-| Liquidity tax (transfer) | 0.5% | — |
-| **Combined transfer tax** | **1%** | **2%** (enforced in `setFees()`) |
+| Staker reward tax (on buys and sells through the pair) | 0.5% | — |
+| Auto-liquidity tax (on buys and sells through the pair) | 0.5% | — |
+| **Combined trade tax** | **1%** | **2%** (enforced in `setFees()`) |
 | Unstake exit fee | 1% | 3% (enforced in `setFees()`) |
 
 ---
@@ -97,15 +97,16 @@ Owner wallet balance independently verified post-deploy via `balanceOf()` read c
 - [x] Contract deployed to BSC Mainnet
 - [x] Initial mint confirmed (150M owner / 850M contract)
 - [x] Sourcify verification successful
-- [ ] BscScan source verification (publish)
+- [x] BscScan source verification (publish)
 - [ ] Open Seed round (collect BNB via Google Form/Sheet)
 - [ ] Open Private round
 - [ ] Open Public round
 - [ ] Batch-set all investor allocations via verification script (`setSeedAllocationBatch`, `setPrivateAllocationBatch`, `setPublicAllocationBatch`) — **must complete before `startSystem()`**, allocation functions lock permanently once the system starts
+- [ ] Set Team and Treasury allocations (`setTeamAllocation`, `setTreasuryAllocation`), also before `startSystem()`
 - [ ] Seed PancakeSwap liquidity pool using collected round funds + owner VCT allocation
 - [ ] Call `lockLiquidity()` — locks LP for 150 days
 - [ ] Call `startSystem()` — finalizes allocations, starts 12-week vesting clock, sweeps any unallocated vesting tokens to treasury
-- [ ] Call `setExchangePair()` — **last step** — registers the PancakeSwap pair for tax collection / enables live trading
+- [ ] Call `setTwapPair()` and `setExchangePair()` — **last steps**, after liquidity is seeded — registers the PancakeSwap pair for TWAP-protected auto-liquidity and tax collection / enables live trading
 
 ---
 
